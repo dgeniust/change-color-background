@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav { 
+    display:grid;
+    background: white;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    height: 4rem;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.nav-center {
+    display: flex;
+    justify-content:space-evenly;
+    width: 90vw;
+    margin: 0 auto;
+    align-items: center;
+}
+.nav-center h4 {
+    text-align: left;
+    margin-top: 0px;
+    font-size: 20px;
+    font-family: 'Sono', sans-serif;
+    color: #17c0eb;
+}
+.nav-links {
+    display: flex;
+}
+.nav-links a {
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-right: 2rem;
+    font-family:'Sono',sans-serif ;
+    letter-spacing: 0px;
+    color: black;
+}
+.nav-links a:hover {
+    cursor:pointer;
+    color: cornflowerblue;
+}
+main {
+    min-height: calc(100vh - 3rem);
+    display: grid;
+    place-items: center;
+    
+}
+.container {
+    text-align: center;
+}
+.container h3 {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: white;
+    border-radius: 4px;
+    border-radius: 6px;
+    margin: 0.2rem 0.2rem ;
+    padding: 1rem;
+    font-size: 30px;
+    font-family: 'Sono',sans-serif;
+}
+.btn-hero {
+    text-transform: uppercase;
+    background: transparent;
+    font-weight: 700 ;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+    background-color: white;
+}
+.btn-hero:hover{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);    
+}
+.bg-btn {
+    text-transform: uppercase;
+    background: transparent;
+    font-weight: 700;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: 1rem;
+    padding: 0rem 0rem 0rem;
+}
+.bg-btn:hover {
+    cursor: pointer;
+    background-color:white;
+}
+
+
+body {
+    overflow: hidden;
+}
